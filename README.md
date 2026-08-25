@@ -10,7 +10,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | :--- | :--- | :--- |
 | `Array01.java` | Dynamic Array Input & Linear Search[cite: 15] | Allocates a user-defined integer array (`new int[size]`)[cite: 15], reads elements dynamically[cite: 15], evaluates total length via `arr.length`[cite: 15], and executes a linear search loop (`arr[i] == find`) to locate the first matching element's index[cite: 15]. |
 | `Array02.java` | String Array Input & Traversal[cite: 16] | Instantiates a dynamic String array (`new String[size]`)[cite: 16], reads individual name entries sequentially via `cin.next()`[cite: 16], and prints each element to the console using a `for` loop traversal[cite: 16]. |
-
+| `Array03.java` | Max & Min Value Finder in Array[cite: 17] | Reads an integer array[cite: 17], initializes `max` and `min` to the first element (`a[0]`)[cite: 17], and iterates through the array to compare each element (`a[i] > max` and `a[i] < min`) to find the extremum values[cite: 17]. |
 ---
 
 ## 🛠️ How to Compile and Run
