@@ -13,6 +13,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array03.java` | Max & Min Value Finder in Array[cite: 17] | Reads an integer array[cite: 17], initializes `max` and `min` to the first element (`a[0]`)[cite: 17], and iterates through the array to compare each element (`a[i] > max` and `a[i] < min`) to find the extremum values[cite: 17]. |
 | `Array04.java` | Sum of Array Elements[cite: 18] | Reads an integer array from user input[cite: 18], initializes an accumulator variable `sum = 0`[cite: 18], and iterates through the array to sum up all stored elements (`sum += a[i]`)[cite: 18]. |
 | `Array04.java` | Sum of Array Elements | Reads an integer array from user input[cite: 18, 19], initializes an accumulator variable `sum = 0`[cite: 18, 19], and iterates through the array to sum up all stored elements (`sum += a[i]`)[cite: 18, 19]. |
+| `Array06.java` | Element Search Status Checker | Prompts user for array elements and a target value, uses a linear traversal loop (`a[i] == find`), and updates a flag variable `m` to display whether the target is "Found" or "Not Found". |
 ---
 
 ## 🛠️ How to Compile and Run
