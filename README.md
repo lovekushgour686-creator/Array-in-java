@@ -14,6 +14,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array04.java` | Sum of Array Elements[cite: 18] | Reads an integer array from user input[cite: 18], initializes an accumulator variable `sum = 0`[cite: 18], and iterates through the array to sum up all stored elements (`sum += a[i]`)[cite: 18]. |
 | `Array04.java` | Sum of Array Elements | Reads an integer array from user input[cite: 18, 19], initializes an accumulator variable `sum = 0`[cite: 18, 19], and iterates through the array to sum up all stored elements (`sum += a[i]`)[cite: 18, 19]. |
 | `Array06.java` | Element Search Status Checker | Prompts user for array elements and a target value, uses a linear traversal loop (`a[i] == find`), and updates a flag variable `m` to display whether the target is "Found" or "Not Found". |
+| `Array07.java` | Even and Odd Numbers Counter[cite: 16] | Reads an integer array from user input[cite: 16] and iterates through all elements[cite: 16], applying modulo evaluation (`a[i] % 2 == 0`) to increment even (`E`) and odd (`O`) counter variables[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
