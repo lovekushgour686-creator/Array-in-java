@@ -15,6 +15,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array05.java` | Array Reversal Tool[cite: 17] | Instantiates a second array `r[]` of equal size[cite: 17] and uses a dual-index loop (`i = size - 1, j = 0`)[cite: 17] to copy elements in reverse order (`r[j] = a[i]`)[cite: 17]. |
 | `Array06.java` | Element Search Status Checker | Prompts user for array elements and a target value, uses a linear traversal loop (`a[i] == find`), and updates a flag variable `m` to display whether the target is "Found" or "Not Found". |
 | `Array07.java` | Even and Odd Numbers Counter[cite: 16] | Reads an integer array from user input[cite: 16] and iterates through all elements[cite: 16], applying modulo evaluation (`a[i] % 2 == 0`) to increment even (`E`) and odd (`O`) counter variables[cite: 16]. |
+| `Array08.java` | Array Ascending Sort | Accepts user input into an integer array, utilizes `Arrays.sort(a)` for dual-pivot Dual-Pivot Quicksort, and prints the sorted elements in ascending order. |
 ---
 
 ## 🛠️ How to Compile and Run
