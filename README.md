@@ -17,6 +17,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array07.java` | Even and Odd Numbers Counter[cite: 16] | Reads an integer array from user input[cite: 16] and iterates through all elements[cite: 16], applying modulo evaluation (`a[i] % 2 == 0`) to increment even (`E`) and odd (`O`) counter variables[cite: 16]. |
 | `Array08.java` | Array Ascending Sort | Accepts user input into an integer array, utilizes `Arrays.sort(a)` for dual-pivot Dual-Pivot Quicksort, and prints the sorted elements in ascending order. |
 | `Array09.java` | Selection/Bubble Sort in Ascending Order[cite: 14] | Implements manual sorting using nested loops (`check = i + 1`)[cite: 14] to compare elements (`a[i] > a[check]`)[cite: 14] and perform in-place variable swaps via a temporary variable (`temp`)[cite: 14]. |
+| `Array10.java` | Copy Array Elements[cite: 15] | Instantiates two integer arrays `a[]` and `c[]` of user-defined size[cite: 15], sequentially copying each input element (`c[i] = a[i]`) during reading[cite: 15], and prints both the original and target copied arrays[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
