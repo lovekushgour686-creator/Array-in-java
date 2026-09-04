@@ -18,6 +18,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array08.java` | Array Ascending Sort | Accepts user input into an integer array, utilizes `Arrays.sort(a)` for dual-pivot Dual-Pivot Quicksort, and prints the sorted elements in ascending order. |
 | `Array09.java` | Selection/Bubble Sort in Ascending Order[cite: 14] | Implements manual sorting using nested loops (`check = i + 1`)[cite: 14] to compare elements (`a[i] > a[check]`)[cite: 14] and perform in-place variable swaps via a temporary variable (`temp`)[cite: 14]. |
 | `Array10.java` | Copy Array Elements[cite: 15] | Instantiates two integer arrays `a[]` and `c[]` of user-defined size[cite: 15], sequentially copying each input element (`c[i] = a[i]`) during reading[cite: 15], and prints both the original and target copied arrays[cite: 15]. |
+| `Array11.java` | Merge Two Arrays[cite: 16] | Reads two integer arrays `a[]` and `c[]` of size $N$[cite: 16], populates a combined array `merge[]` of size $2N$ using conditional bounds (`i < size ? a[i] : c[i - size]`)[cite: 16], and prints the formatted merged sequence[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
