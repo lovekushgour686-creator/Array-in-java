@@ -22,6 +22,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array12.java` | Merge Variable-Sized Arrays[cite: 16] | Reads two integer arrays `a1[]` and `a2[]` of independent sizes[cite: 16], merges them into a combined array `marge[]` using sequential index tracking (`index++`)[cite: 16], and displays the combined array elements[cite: 16]. |
 | `Array13.java` | Duplicate Elements Finder[cite: 16] | Reads an integer array[cite: 16] and uses nested loops (`j = i + 1`)[cite: 16] to check pairs for identical values (`arr[i] == arr[j]`)[cite: 16], printing duplicate entries when encountered[cite: 16]. |
 | `Array14.java` | Second Largest Element Finder[cite: 16] | Sorts input elements[cite: 16] and iterates through the array to track `max` and `maxsec` values[cite: 16], checking conditions (`arr[i] != max` and `arr[i] > maxsec`) to isolate the second distinct largest element or output `-1`[cite: 16]. |
+| `Array15.java` | Majority Elements Finder ($\lfloor n/3 \rfloor$ Threshold) | Reads an array $a$ of size $n$, counts frequency per element via nested comparisons (`a[i] == a[j]`), and prints elements exceeding the threshold `d > a.length / 3` while filtering duplicate prints with a historic index lookup. |
 ---
 
 ## 🛠️ How to Compile and Run
