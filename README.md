@@ -24,6 +24,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array14.java` | Second Largest Element Finder[cite: 16] | Sorts input elements[cite: 16] and iterates through the array to track `max` and `maxsec` values[cite: 16], checking conditions (`arr[i] != max` and `arr[i] > maxsec`) to isolate the second distinct largest element or output `-1`[cite: 16]. |
 | `Array15.java` | Majority Elements Finder ($\lfloor n/3 \rfloor$ Threshold) | Reads an array $a$ of size $n$, counts frequency per element via nested comparisons (`a[i] == a[j]`), and prints elements exceeding the threshold `d > a.length / 3` while filtering duplicate prints with a historic index lookup. |
 | `Array16.java` | Left Rotate Array by One Position[cite: 16] | Reads an integer array `a[]` into memory[cite: 16] and shifts elements left into a new array `l[]` (`l[i] = a[i + 1]`)[cite: 16], assigning the first element `a[0]` to the final index `l[size - 1]`[cite: 16]. |
+| `Array17.java` | Right Rotate Array by One Position[cite: 16] | Accepts an integer array `a[]`[cite: 16] and shifts elements right into a new array `n[]` by assigning the last element `a[size - 1]` to index `0` and offset elements (`n[i] = a[i - 1]`) for indices $i \ge 1$[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
