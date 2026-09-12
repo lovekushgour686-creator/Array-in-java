@@ -26,6 +26,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array16.java` | Left Rotate Array by One Position[cite: 16] | Reads an integer array `a[]` into memory[cite: 16] and shifts elements left into a new array `l[]` (`l[i] = a[i + 1]`)[cite: 16], assigning the first element `a[0]` to the final index `l[size - 1]`[cite: 16]. |
 | `Array17.java` | Right Rotate Array by One Position[cite: 16] | Accepts an integer array `a[]`[cite: 16] and shifts elements right into a new array `n[]` by assigning the last element `a[size - 1]` to index `0` and offset elements (`n[i] = a[i - 1]`) for indices $i \ge 1$[cite: 16]. |
 | `Array18.java` | Missing Number Finder ($1$ to $n$)[cite: 16] | Reads an array, sorts it using `Arrays.sort(a)` to identify the maximum value[cite: 16], computes expected total sum using Gauss's formula $\frac{\text{max} \times (\text{max} + 1)}{2}$[cite: 16], and subtracts the actual array sum (`method - sum`) to isolate the missing number[cite: 16]. |
+| `Array19.java` | Array Storage Status Checker[cite: 16] | Reads input into an array `a[]`[cite: 16] and evaluates array size validation conditions (`size <= 0` vs `size > 0`)[cite: 16] to output the storage status flag ("Not Stored" vs "Stored")[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
