@@ -28,6 +28,8 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array18.java` | Missing Number Finder ($1$ to $n$)[cite: 16] | Reads an array, sorts it using `Arrays.sort(a)` to identify the maximum value[cite: 16], computes expected total sum using Gauss's formula $\frac{\text{max} \times (\text{max} + 1)}{2}$[cite: 16], and subtracts the actual array sum (`method - sum`) to isolate the missing number[cite: 16]. |
 | `Array19.java` | Array Storage Status Checker[cite: 16] | Reads input into an array `a[]`[cite: 16] and evaluates array size validation conditions (`size <= 0` vs `size > 0`)[cite: 16] to output the storage status flag ("Not Stored" vs "Stored")[cite: 16]. |
 | `Array20.java` | Common Elements Finder[cite: 16] | Reads two separate integer arrays `a[]` and `a1[]`[cite: 16], performs a nested loop traversal (`a[i] == a1[j]`)[cite: 16], and prints all matching common values to the console[cite: 16]. |
+| `Array21.java` | In-Place Array Reversal[cite: 15] | Reads an integer array `a[]`[cite: 15] and uses a two-pointer approach (`i = 0`, `b = size - 1`)[cite: 15] in a `while (i < b)` loop[cite: 15] to swap elements in-place using a temporary variable `temp`[cite: 15]. |
+
 ---
 
 ## 🛠️ How to Compile and Run
