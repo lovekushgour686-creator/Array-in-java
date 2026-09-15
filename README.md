@@ -29,6 +29,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array19.java` | Array Storage Status Checker[cite: 16] | Reads input into an array `a[]`[cite: 16] and evaluates array size validation conditions (`size <= 0` vs `size > 0`)[cite: 16] to output the storage status flag ("Not Stored" vs "Stored")[cite: 16]. |
 | `Array20.java` | Common Elements Finder[cite: 16] | Reads two separate integer arrays `a[]` and `a1[]`[cite: 16], performs a nested loop traversal (`a[i] == a1[j]`)[cite: 16], and prints all matching common values to the console[cite: 16]. |
 | `Array21.java` | In-Place Array Reversal[cite: 15] | Reads an integer array `a[]`[cite: 15] and uses a two-pointer approach (`i = 0`, `b = size - 1`)[cite: 15] in a `while (i < b)` loop[cite: 15] to swap elements in-place using a temporary variable `temp`[cite: 15]. |
+| `Array22.java` | Target Pair Sum Finder[cite: 16] | Reads an array `a[]` and target value `t`[cite: 16], uses nested loops (`j = i + 1`) to check pairs (`a[i] + a[j] == t`)[cite: 16], prints matching pairs `(a[i],a[j])`[cite: 16], and displays a verification status ("Pair Found" vs "No pair Found*")[cite: 16]. |
 
 ---
 
