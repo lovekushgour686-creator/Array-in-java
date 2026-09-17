@@ -31,7 +31,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array21.java` | In-Place Array Reversal[cite: 15] | Reads an integer array `a[]`[cite: 15] and uses a two-pointer approach (`i = 0`, `b = size - 1`)[cite: 15] in a `while (i < b)` loop[cite: 15] to swap elements in-place using a temporary variable `temp`[cite: 15]. |
 | `Array22.java` | Target Pair Sum Finder[cite: 16] | Reads an array `a[]` and target value `t`[cite: 16], uses nested loops (`j = i + 1`) to check pairs (`a[i] + a[j] == t`)[cite: 16], prints matching pairs `(a[i],a[j])`[cite: 16], and displays a verification status ("Pair Found" vs "No pair Found*")[cite: 16]. |
 | `Array23.java` | Element Frequency Counter[cite: 16] | Sorts the input array using `Arrays.sort(a)`[cite: 16], then iterates through adjacent elements (`a[i] == a[i + 1]`)[cite: 16] to accumulate and print the occurrence count (`f`) for each distinct integer[cite: 16]. |
-
+| `Array24.java` | Duplicate Elements Remover[cite: 16] | Sorts the array via `Arrays.sort(a)`[cite: 16], then iterates through adjacent entries (`a[i] == a[i + 1]`) using `continue` to skip duplicate values[cite: 16], printing only unique elements[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
