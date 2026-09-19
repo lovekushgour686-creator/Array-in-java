@@ -33,6 +33,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array23.java` | Element Frequency Counter[cite: 16] | Sorts the input array using `Arrays.sort(a)`[cite: 16], then iterates through adjacent elements (`a[i] == a[i + 1]`)[cite: 16] to accumulate and print the occurrence count (`f`) for each distinct integer[cite: 16]. |
 | `Array24.java` | Duplicate Elements Remover[cite: 16] | Sorts the array via `Arrays.sort(a)`[cite: 16], then iterates through adjacent entries (`a[i] == a[i + 1]`) using `continue` to skip duplicate values[cite: 16], printing only unique elements[cite: 16]. |
 | `Array25.java` | Max Consecutive Ones Counter[cite: 16] | Reads a binary array `a[]`[cite: 16], tracks consecutive `1`s using a counter `c`[cite: 16], resets `c = 0` upon encountering non-one values[cite: 16], and continuously updates `max = Math.max(c, max)` to print the highest sequence length[cite: 16]. |
+| `Array26.java` | Maximum Subarray Sum of Size $K$[cite: 16] | Reads an array `arr[]` and window size $k$[cite: 16], calculates the initial sum of the first $k$ elements[cite: 16], and applies a sliding window technique (`s += arr[i] - arr[i - k]`)[cite: 16] to compute and print the maximum contiguous subarray sum[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
