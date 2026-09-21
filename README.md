@@ -36,6 +36,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array26.java` | Maximum Subarray Sum of Size $K$[cite: 16] | Reads an array `arr[]` and window size $k$[cite: 16], calculates the initial sum of the first $k$ elements[cite: 16], and applies a sliding window technique (`s += arr[i] - arr[i - k]`)[cite: 16] to compute and print the maximum contiguous subarray sum[cite: 16]. |
 | `Array27.java` | Team Problem Consensus Counter (Codeforces "Team")[cite: 15] | Accepts $r$ contest problems[cite: 15], sums the binary votes of three participants per problem (`sum += num`)[cite: 15], and increments `count` whenever at least two members agree (`sum >= 2`)[cite: 15] to print the total solvable problems[cite: 15]. |
 | `Array28.java` | Strictly Increasing Adjacent Elements Filter[cite: 16] | Reads an array `a[]` of size $n$[cite: 16], performs a single-pass traversal through adjacent pairs (`a[i] < a[i + 1]`)[cite: 16], and prints each element `a[i]` that is strictly smaller than its immediate right neighbor[cite: 16]. |
+| `Array29.java` | Cyclic Array Shift / Rotation Tool[cite: 16] | Takes an integer array `arr[]` and rotation offset $k$[cite: 16], constructs a new target array `a[]` using index mapping split conditions (`i < k` vs `i >= k`)[cite: 16], and prints the shifted array elements[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
