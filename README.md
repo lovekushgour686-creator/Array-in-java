@@ -37,6 +37,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array27.java` | Team Problem Consensus Counter (Codeforces "Team")[cite: 15] | Accepts $r$ contest problems[cite: 15], sums the binary votes of three participants per problem (`sum += num`)[cite: 15], and increments `count` whenever at least two members agree (`sum >= 2`)[cite: 15] to print the total solvable problems[cite: 15]. |
 | `Array28.java` | Strictly Increasing Adjacent Elements Filter[cite: 16] | Reads an array `a[]` of size $n$[cite: 16], performs a single-pass traversal through adjacent pairs (`a[i] < a[i + 1]`)[cite: 16], and prints each element `a[i]` that is strictly smaller than its immediate right neighbor[cite: 16]. |
 | `Array29.java` | Cyclic Array Shift / Rotation Tool[cite: 16] | Takes an integer array `arr[]` and rotation offset $k$[cite: 16], constructs a new target array `a[]` using index mapping split conditions (`i < k` vs `i >= k`)[cite: 16], and prints the shifted array elements[cite: 16]. |
+| `Array30.java` | Sorted Array Element Index Searcher[cite: 16] | Reads an array `arr[]`[cite: 16], sorts it in ascending order via `Arrays.sort(arr)`[cite: 16], prints the sorted elements[cite: 16], and performs a linear search loop to find and display the target value's index or `-1` if not found[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
