@@ -38,6 +38,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array28.java` | Strictly Increasing Adjacent Elements Filter[cite: 16] | Reads an array `a[]` of size $n$[cite: 16], performs a single-pass traversal through adjacent pairs (`a[i] < a[i + 1]`)[cite: 16], and prints each element `a[i]` that is strictly smaller than its immediate right neighbor[cite: 16]. |
 | `Array29.java` | Cyclic Array Shift / Rotation Tool[cite: 16] | Takes an integer array `arr[]` and rotation offset $k$[cite: 16], constructs a new target array `a[]` using index mapping split conditions (`i < k` vs `i >= k`)[cite: 16], and prints the shifted array elements[cite: 16]. |
 | `Array30.java` | Sorted Array Element Index Searcher[cite: 16] | Reads an array `arr[]`[cite: 16], sorts it in ascending order via `Arrays.sort(arr)`[cite: 16], prints the sorted elements[cite: 16], and performs a linear search loop to find and display the target value's index or `-1` if not found[cite: 16]. |
+| `Array31.java` | Target Two-Sum Indices Collector[cite: 16] | Reads an array `a[]` and target value `target`[cite: 16], uses nested loops (`j = i + 1`)[cite: 16] to find element pairs summing to `target` (`a[i] + a[j] == target`)[cite: 16], appends their indices (`i` and `j`) to an `ArrayList<Integer>`[cite: 16], and prints the resulting index pairs list[cite: 16]. |
 ---
 
 ## 🛠️ How to Compile and Run
