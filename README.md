@@ -40,6 +40,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array30.java` | Sorted Array Element Index Searcher[cite: 16] | Reads an array `arr[]`[cite: 16], sorts it in ascending order via `Arrays.sort(arr)`[cite: 16], prints the sorted elements[cite: 16], and performs a linear search loop to find and display the target value's index or `-1` if not found[cite: 16]. |
 | `Array31.java` | Target Two-Sum Indices Collector[cite: 16] | Reads an array `a[]` and target value `target`[cite: 16], uses nested loops (`j = i + 1`)[cite: 16] to find element pairs summing to `target` (`a[i] + a[j] == target`)[cite: 16], appends their indices (`i` and `j`) to an `ArrayList<Integer>`[cite: 16], and prints the resulting index pairs list[cite: 16]. |
 | `Array32.java` | Prefix Sum Array Generator[cite: 16] | Reads an integer array `a[]` of size `size`[cite: 16], instantiates a prefix accumulator array `sum[]`[cite: 16], and computes running totals per position using an inner loop (`sum[i] += a[p]` for $p \le i$)[cite: 16] to output cumulative prefix sums[cite: 16]. |
+| `Array33.java` | String Symmetric Character Checker / Palindrome Matcher[cite: 15] | Accepts a input string `n`[cite: 15], iterates over character positions[cite: 15], checks whether any character at index `i` matches its mirror position `n.length() - 1 - i` (`n.charAt(i) == n.charAt(...)`)[cite: 15], sets a boolean flag `r`[cite: 15], and prints `"True"` or `"False"`[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
