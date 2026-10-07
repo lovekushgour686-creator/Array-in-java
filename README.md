@@ -52,6 +52,8 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array42.java` | Array Left Rotation by $d$ Steps[cite: 15] | Accepts integer array `arr[]` and rotation steps `d`[cite: 15], normalizes offset (`d = d % arr.length`)[cite: 15], constructs target array `a[]`[cite: 15], maps first $d$ elements to shifted rear indices (`a[arr.length + i - d] = arr[i]`)[cite: 15] and remaining elements to preceding positions (`a[i - d] = arr[i]`)[cite: 15], and prints rotated array elements[cite: 15]. |
 | `Array43.java` | Alternate Maximum and Minimum Array Rearranger[cite: 15] | Reads integer array `arr[]`[cite: 15], initializes `max = arr.length - 1` and `min = 0` pointers[cite: 15], constructs temp array `a[]` placing max elements at even indices (`a[i] = arr[max]`, `max--`)[cite: 15] and min elements at odd indices (`a[i] = arr[min]`, `min++`)[cite: 15], copies result back to `arr[]`[cite: 15], and prints the reordered elements[cite: 15]. |
 | `Array44.java` | First and Last Occurrence Index Finder[cite: 15] | Reads integer array `arr[]` and target element `x`[cite: 15], sorts `arr[]` using `Arrays.sort(arr)`[cite: 15], iterates through elements to capture index bounds when `x == arr[i]`[cite: 15], stores the occurrence range in an `ArrayList<Integer>`[cite: 15], and prints the output list[cite: 15]. |
+<img width="717" height="738" alt="image" src="https://github.com/user-attachments/assets/c4bab97f-5a3b-4e6e-b5b4-f7889713e40d" />
+
 ---
 
 ## 🛠️ How to Compile and Run
