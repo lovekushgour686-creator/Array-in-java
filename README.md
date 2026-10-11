@@ -56,7 +56,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array46.java` | Array Left Rotation by $d$ Counter-Clockwise Steps[cite: 15] | Accepts integer array `arr[]` and rotation steps `d`[cite: 15], computes effective offset `k = Math.abs(arr.length - d)` reduced modulo length using a `while` loop[cite: 15], maps elements into target array `arr2[]` using split conditions (`i < k` vs `i >= k`)[cite: 15], and prints rotated array entries[cite: 15]. |
 | `Array48.java` | Sorted Union Generator for Two Arrays[cite: 15] | Reads two integer arrays `arr1[]` and `arr2[]`[cite: 15], merges them into a single array `arrnew[]`[cite: 15], sorts `arrnew[]` using `Arrays.sort()`[cite: 15], filters duplicate consecutive elements (`arrnew[i] != arrnew[i + 1]`)[cite: 15], appends distinct elements and the final element to an `ArrayList<Integer>`[cite: 15], and prints the sorted union list[cite: 15]. |
 | `Array49.java` | Smaller Elements on Right Side Counter[cite: 15] | Reads integer array `arr[]`[cite: 15], uses nested loops (`l` and `r = l + 1`) to compare each element with all elements to its right (`arr[l] > arr[r]`)[cite: 15] to count smaller elements and populate an integer frequency list `list[]`[cite: 15], then transfers results to an `ArrayList<Integer>` and prints the final output list[cite: 15]. |
-
+| `Array50.java` | Sorted Arrays Intersection Finder[cite: 15] | Accepts two sorted arrays `arr1[]` and `arr2[]`[cite: 15], uses nested loops to find common matching elements (`arr1[i] == arr2[c]`) while avoiding duplicates (`n != arr1[i]`)[cite: 15], stores the distinct intersection values in an `ArrayList<Integer>`[cite: 15], and prints the final list[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
