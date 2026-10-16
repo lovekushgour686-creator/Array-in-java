@@ -61,6 +61,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array52.java` | Dutch National Flag Sorting Algorithm (0s, 1s, and 2s Sorter)[cite: 15] | Accepts an integer array `arr[]` consisting of $0$s, $1$s, and $2$s[cite: 15], computes the frequency counts of each element (`countzero`, `countone`, `counttwo`)[cite: 15], overwrites the array sequentially with segregated values[cite: 15], and prints the sorted elements[cite: 15]. |
 | `Array53.java` | Two Sum - Pair with Given Sum[cite: 15] | Accepts an integer array `arr[]` and target value[cite: 15], uses nested loops to check all distinct pairs (`arr[i] + arr[j] == target` with `i != j`)[cite: 15], updates a boolean match flag `r`[cite: 15], and prints `"Yes"` or `"No"` depending on whether a valid pair exists[cite: 15]. |
 | `Array55.java` | Majority Element Finder (Moore's Voting / Frequency Threshold)[cite: 15] | Accepts an integer array `arr[]`[cite: 15], computes element frequencies via nested iteration to identify elements appearing strictly greater than $\lfloor \text{size}/2 \rfloor$ times[cite: 15], appends the majority element or `-1` to an `ArrayList<Integer>`[cite: 15], and prints the output list[cite: 15]. |
+| `arrayEasy01.java` | Two Sum Index Matcher (Adjacent Pair Variant)[cite: 15] | Accepts integer array `nums` and target value[cite: 15], iterates through adjacent pairs (`a[i] + a[i + 1] == target`)[cite: 15], adds matching consecutive indices to an `ArrayList<Integer>`[cite: 15], and outputs the index list[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
