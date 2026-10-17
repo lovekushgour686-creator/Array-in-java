@@ -62,6 +62,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `Array53.java` | Two Sum - Pair with Given Sum[cite: 15] | Accepts an integer array `arr[]` and target value[cite: 15], uses nested loops to check all distinct pairs (`arr[i] + arr[j] == target` with `i != j`)[cite: 15], updates a boolean match flag `r`[cite: 15], and prints `"Yes"` or `"No"` depending on whether a valid pair exists[cite: 15]. |
 | `Array55.java` | Majority Element Finder (Moore's Voting / Frequency Threshold)[cite: 15] | Accepts an integer array `arr[]`[cite: 15], computes element frequencies via nested iteration to identify elements appearing strictly greater than $\lfloor \text{size}/2 \rfloor$ times[cite: 15], appends the majority element or `-1` to an `ArrayList<Integer>`[cite: 15], and prints the output list[cite: 15]. |
 | `arrayEasy01.java` | Two Sum Index Matcher (Adjacent Pair Variant)[cite: 15] | Accepts integer array `nums` and target value[cite: 15], iterates through adjacent pairs (`a[i] + a[i + 1] == target`)[cite: 15], adds matching consecutive indices to an `ArrayList<Integer>`[cite: 15], and outputs the index list[cite: 15]. |
+| `arrayEasy02.java` | Maximum Formed Number Rearranger from Digits Array[cite: 15] | Accepts an integer array `arr[]` of single-digit numbers ($0$ to $9$)[cite: 15], sorts the array in ascending order via `Arrays.sort()`[cite: 15], and iterates in reverse order to concatenate digits into a maximum-value string `r`[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
