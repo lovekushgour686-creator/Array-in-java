@@ -66,6 +66,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy03.java` | Array Plus One Incrementer | Accepts a non-negative integer represented as an array `arr[]`, constructs the numeric value via base-10 accumulation (`s = (s * 10) + arr[i]`), increments the result by $1$, extracts digits into an `ArrayList<Integer>`, and prints the reversed digit sequence. |
 | `arrayEasy04.java` | Max Consecutive Ones Counter (Easy Variant)[cite: 15] | Accepts a binary array `nums`[cite: 15], tracks consecutive occurrences of `1`s using a dynamic iteration loop[cite: 15], computes the running maximum via `Math.max(count, max)`[cite: 15], and outputs the final streak count[cite: 15]. |
 | `arrayEasy05.java` | Initialized Placeholder Structure[cite: 15] | Establishes the boilerplate shell class for upcoming array algorithmic expansions[cite: 15]. |
+| `arrayEasy06.java` | Leaders in an Array Finder | Accepts an array of positive integers `arr`, uses nested loops to check if elements are greater than or equal to all elements to their right (`l >= r`), collects leaders into an `ArrayList<Integer>`, and prints the output list. |
 ---
 
 ## 🛠️ How to Compile and Run
