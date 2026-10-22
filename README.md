@@ -67,6 +67,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy04.java` | Max Consecutive Ones Counter (Easy Variant)[cite: 15] | Accepts a binary array `nums`[cite: 15], tracks consecutive occurrences of `1`s using a dynamic iteration loop[cite: 15], computes the running maximum via `Math.max(count, max)`[cite: 15], and outputs the final streak count[cite: 15]. |
 | `arrayEasy05.java` | Initialized Placeholder Structure[cite: 15] | Establishes the boilerplate shell class for upcoming array algorithmic expansions[cite: 15]. |
 | `arrayEasy06.java` | Leaders in an Array Finder | Accepts an array of positive integers `arr`, uses nested loops to check if elements are greater than or equal to all elements to their right (`l >= r`), collects leaders into an `ArrayList<Integer>`, and prints the output list. |
+| `arrayEasy07.java` | Optimized Leaders in an Array Finder | Accepts an array of positive integers `arr`, tracks running maximum from right to left (`arr[i] >= left`) in $O(n)$ time complexity, adds leaders to an `ArrayList<Integer>`, reverses the list via `Collections.reverse()`, and outputs the results[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
