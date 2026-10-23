@@ -68,6 +68,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy05.java` | Initialized Placeholder Structure[cite: 15] | Establishes the boilerplate shell class for upcoming array algorithmic expansions[cite: 15]. |
 | `arrayEasy06.java` | Leaders in an Array Finder | Accepts an array of positive integers `arr`, uses nested loops to check if elements are greater than or equal to all elements to their right (`l >= r`), collects leaders into an `ArrayList<Integer>`, and prints the output list. |
 | `arrayEasy07.java` | Optimized Leaders in an Array Finder | Accepts an array of positive integers `arr`, tracks running maximum from right to left (`arr[i] >= left`) in $O(n)$ time complexity, adds leaders to an `ArrayList<Integer>`, reverses the list via `Collections.reverse()`, and outputs the results[cite: 15]. |
+| `arrayEasy08.java` | Subarray Generator[cite: 15] | Accepts an integer array `arr[]`[cite: 15], uses triple nested loops (`r`, `c`, and `p`) to generate and print all possible contiguous subarrays formatted within curly braces `{}`[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
