@@ -70,6 +70,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy07.java` | Optimized Leaders in an Array Finder | Accepts an array of positive integers `arr`, tracks running maximum from right to left (`arr[i] >= left`) in $O(n)$ time complexity, adds leaders to an `ArrayList<Integer>`, reverses the list via `Collections.reverse()`, and outputs the results[cite: 15]. |
 | `arrayEasy08.java` | Subarray Generator | Accepts an integer array `arr[]`[cite: 15], uses triple nested loops (`r`, `c`, and `p`) to generate and print all possible contiguous subarrays formatted within curly braces . |
 | `arrayEasy09.java` | Sorted Array Union Tool | Accepts two integer arrays `arr1[]` and `arr2[]`, merges them into a combined array `mrg[]`, sorts and filters out consecutive duplicates via `Arrays.sort()`, and outputs the distinct sorted union elements list. |
+| `arrayEasy10.java` | Interleaved Array Rearranger ($[a_1, b_1, a_2, b_2, \dots]$ format)[cite: 15] | Accepts an array of size $n$ partitioned into halves $[a_1, a_2, \dots]$ and $[b_1, b_2, \dots]$[cite: 15], uses two pointer indices (`s` and `h`) to interleave the elements into an alternating sequence, and outputs the resulting list[cite: 15]. |
 ---
 
 ## 🛠️ How to Compile and Run
