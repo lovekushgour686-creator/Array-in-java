@@ -72,6 +72,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy09.java` | Sorted Array Union Tool | Accepts two integer arrays `arr1[]` and `arr2[]`, merges them into a combined array `mrg[]`, sorts and filters out consecutive duplicates via `Arrays.sort()`, and outputs the distinct sorted union elements list. |
 | `arrayEasy10.java` | Interleaved Array Rearranger ($[a_1, b_1, a_2, b_2, \dots]$ format)[cite: 15] | Accepts an array of size $n$ partitioned into halves $[a_1, a_2, \dots]$ and $[b_1, b_2, \dots]$[cite: 15], uses two pointer indices (`s` and `h`) to interleave the elements into an alternating sequence, and outputs the resulting list[cite: 15]. |
 | `arrayEasy11.java` | Equilibrium Point Finder[cite: 15] | Accepts an integer array `arr[]`[cite: 15], calculates total array sum, iterates through elements while tracking left-side sum `l` and verifying against right-side sum (`sum - arr[i] - l`)[cite: 15], and outputs the first equilibrium index or `-1`[cite: 15]. |
+| `arrayEasy12.java` | Special Triplets Finder (Equally Spaced Frequency Counter) | Accepts an integer array `nums`, tracks element occurrences and index positions across the array, checks if an element appears exactly three times with equal spacing between indices (`second - first == third - second`), and outputs the total count of distinct special integers. |
 
 ---
 
