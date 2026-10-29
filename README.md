@@ -74,7 +74,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy11.java` | Equilibrium Point Finder[cite: 15] | Accepts an integer array `arr[]`[cite: 15], calculates total array sum, iterates through elements while tracking left-side sum `l` and verifying against right-side sum (`sum - arr[i] - l`)[cite: 15], and outputs the first equilibrium index or `-1`[cite: 15]. |
 | `arrayEasy12.java` | Special Triplets Finder (Equally Spaced Frequency Counter) | Accepts an integer array `nums`, tracks element occurrences and index positions across the array, checks if an element appears exactly three times with equal spacing between indices (`second - first == third - second`), and outputs the total count of distinct special integers. |
 | `arrayEasy13.java` | Average Floor Value Frequency Counter[cite: 14] | Accepts an integer array `arr[]` and value `x`[cite: 14], calculates the floor average for each element via `Math.floor((arr[i] + x) / 2)`[cite: 14], and constructs an output list storing the computed values[cite: 14]. |
-
+| `arrayEasy14.java` | Non-Decreasing Array Sorted Checker | Accepts an integer array `arr[]`, iterates through adjacent elements to verify non-decreasing order (`arr[i] > arr[i + 1]`), updates a boolean validation flag `check`, and outputs whether the array is sorted (`true` or `false`)[cite: 14]. |
 ---
 
 ## 🛠️ How to Compile and Run
