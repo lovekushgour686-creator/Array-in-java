@@ -77,6 +77,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy14.java` | Non-Decreasing Array Sorted Checker | Accepts an integer array `arr[]`, iterates through adjacent elements to verify non-decreasing order (`arr[i] > arr[i + 1]`), updates a boolean validation flag `check`, and outputs whether the array is sorted (`true` or `false`)[cite: 14]. |
 | `arrayEasy15.java` | Move Zeros to End[cite: 14] | Accepts an array of non-negative integers `arr[]`[cite: 14], extracts non-zero elements into a list while counting zeros[cite: 14], appends all counted zeros to the end[cite: 14], and prints the reordered sequence[cite: 14]. |
 | `arrayEasy16.java` | Clockwise Array Rotation Tool[cite: 14] | Accepts an integer array `arr[]` and rotation count `k`[cite: 14], normalizes the rotation index via modulo operation (`R = k % arr.length`)[cite: 14], shifts elements to perform $k$ clockwise rotations, and outputs the resulting list[cite: 14]. |
+| `arrayEasy17.java` | Separate Negative and Positive Elements Tool[cite: 14] | Accepts an unsorted array `arr[]` containing positive and negative integers[cite: 14], filters and groups positive elements followed by negative elements while preserving their relative order[cite: 14], and outputs the separated list[cite: 14]. |
 ---
 
 ## 🛠️ How to Compile and Run
