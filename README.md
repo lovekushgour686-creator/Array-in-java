@@ -78,6 +78,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy15.java` | Move Zeros to End[cite: 14] | Accepts an array of non-negative integers `arr[]`[cite: 14], extracts non-zero elements into a list while counting zeros[cite: 14], appends all counted zeros to the end[cite: 14], and prints the reordered sequence[cite: 14]. |
 | `arrayEasy16.java` | Clockwise Array Rotation Tool[cite: 14] | Accepts an integer array `arr[]` and rotation count `k`[cite: 14], normalizes the rotation index via modulo operation (`R = k % arr.length`)[cite: 14], shifts elements to perform $k$ clockwise rotations, and outputs the resulting list[cite: 14]. |
 | `arrayEasy17.java` | Separate Negative and Positive Elements Tool[cite: 14] | Accepts an unsorted array `arr[]` containing positive and negative integers[cite: 14], filters and groups positive elements followed by negative elements while preserving their relative order[cite: 14], and outputs the separated list[cite: 14]. |
+| `arrayEasy18.java` | Reverse in Groups Tool | Accepts an integer array `arr[]` and chunk size `k`[cite: 14], and reverses every consecutive group of $k$ elements in place[cite: 14] or prints the reordered chunk sequences. |
 ---
 
 ## 🛠️ How to Compile and Run
