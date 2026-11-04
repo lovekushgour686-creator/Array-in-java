@@ -80,6 +80,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy17.java` | Separate Negative and Positive Elements Tool[cite: 14] | Accepts an unsorted array `arr[]` containing positive and negative integers[cite: 14], filters and groups positive elements followed by negative elements while preserving their relative order[cite: 14], and outputs the separated list[cite: 14]. |
 | `arrayEasy18.java` | Reverse in Groups Tool | Accepts an integer array `arr[]` and chunk size `k`[cite: 14], and reverses every consecutive group of $k$ elements in place[cite: 14] or prints the reordered chunk sequences. |
 | `arrayEasy19.java` | Missing Element Finder from Shuffled Subarray | Accepts two integer arrays `arr1[]` and `arr2[]` where `arr2` is a shuffled copy of `arr1` with one element removed[cite: 14], compares elements to find the missing value[cite: 14], and outputs the missing number[cite: 14]. |
+| `arrayEasy20.java` | Alternate Index Element Extractor[cite: 14] | Accepts an integer array `arr[]`[cite: 14], iterates through the array using bitwise checks (`i & 1`) to identify even indices[cite: 14], and builds a list of elements located at indices $0, 2, 4, \dots$ [cite: 14]. |
 ---
 
 ## 🛠️ How to Compile and Run
