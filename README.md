@@ -82,6 +82,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy19.java` | Missing Element Finder from Shuffled Subarray | Accepts two integer arrays `arr1[]` and `arr2[]` where `arr2` is a shuffled copy of `arr1` with one element removed[cite: 14], compares elements to find the missing value[cite: 14], and outputs the missing number[cite: 14]. |
 | `arrayEasy20.java` | Alternate Index Element Extractor[cite: 14] | Accepts an integer array `arr[]`[cite: 14], iterates through the array using bitwise checks (`i & 1`) to identify even indices[cite: 14], and builds a list of elements located at indices $0, 2, 4, \dots$ [cite: 14]. |
 | `arrayEasy21.java` | Append Value to Partially Filled Array Tool[cite: 14] | Accepts an integer array `arr1[]` of size $N$ and an insertion value `val`[cite: 14], constructs a new array `arr[]` of size $N+1$ by copying elements from `arr1` and appending `val` at the final index[cite: 14], and prints the resulting array sequence[cite: 14]. |
+| `arrayEasy22.java` | Maximum of All Adjacent Pairs Finder | Accepts an integer array `arr[]` of positive integers, iterates through adjacent pairs to compute `Math.max(arr[i], arr[i + 1])`, and outputs the list of maximum values for each consecutive pair. |
 ---
 
 ## 🛠️ How to Compile and Run
