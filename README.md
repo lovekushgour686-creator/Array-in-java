@@ -83,6 +83,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy20.java` | Alternate Index Element Extractor[cite: 14] | Accepts an integer array `arr[]`[cite: 14], iterates through the array using bitwise checks (`i & 1`) to identify even indices[cite: 14], and builds a list of elements located at indices $0, 2, 4, \dots$ [cite: 14]. |
 | `arrayEasy21.java` | Append Value to Partially Filled Array Tool[cite: 14] | Accepts an integer array `arr1[]` of size $N$ and an insertion value `val`[cite: 14], constructs a new array `arr[]` of size $N+1$ by copying elements from `arr1` and appending `val` at the final index[cite: 14], and prints the resulting array sequence[cite: 14]. |
 | `arrayEasy22.java` | Maximum of All Adjacent Pairs Finder | Accepts an integer array `arr[]` of positive integers, iterates through adjacent pairs to compute `Math.max(arr[i], arr[i + 1])`, and outputs the list of maximum values for each consecutive pair. |
+| `arrayEasy23.java` | Duplicate Value Existence Checker[cite: 13] | Accepts an integer array `arr[]`[cite: 13], establishes pointer boundaries to evaluate array configuration, and outputs boolean status checking for presence of duplicate values[cite: 13]. |
 ---
 
 ## 🛠️ How to Compile and Run
