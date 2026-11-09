@@ -85,6 +85,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy22.java` | Maximum of All Adjacent Pairs Finder | Accepts an integer array `arr[]` of positive integers, iterates through adjacent pairs to compute `Math.max(arr[i], arr[i + 1])`, and outputs the list of maximum values for each consecutive pair. |
 | `arrayEasy23.java` | Duplicate Value Existence Checker[cite: 13] | Accepts an integer array `arr[]`[cite: 13], establishes pointer boundaries to evaluate array configuration, and outputs boolean status checking for presence of duplicate values[cite: 13]. |
 | `arrayEasy25.java` | $K$-th Smallest Element Finder | Accepts an integer array `arr[]` and target rank `k`, sorts the array in ascending order via `Arrays.sort()`, filters out duplicate elements into a distinct list, and outputs the $k$-th smallest unique element. |
+| `arrayEasy26.java` | Sequential Double and Zero-Shift Array Processor[cite: 13] | Accepts an integer array `nums[]`[cite: 13], applies sequential pairwise doubling and zero conversions (`nums[i] == nums[i+1]`)[cite: 13], and performs bubble shifting to push all zeros to the end of the array[cite: 13]. |
 ---
 
 ## 🛠️ How to Compile and Run
