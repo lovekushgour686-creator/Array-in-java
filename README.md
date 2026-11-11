@@ -87,6 +87,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy24.java` | Longest Increasing Subsequence Length Finder[cite: 14] | Accepts an integer array `arr[]`[cite: 14], tracks strictly increasing adjacent elements to compute sequential subsequence lengths[cite: 14], and outputs the maximum subsequence length found[cite: 14]. |
 | `arrayEasy25.java` | $K$-th Smallest Element Finder | Accepts an integer array `arr[]` and target rank `k`, sorts the array in ascending order via `Arrays.sort()`, filters out duplicate elements into a distinct list, and outputs the $k$-th smallest unique element. |
 | `arrayEasy26.java` | Sequential Double and Zero-Shift Array Processor[cite: 13] | Accepts an integer array `nums[]`[cite: 13], applies sequential pairwise doubling and zero conversions (`nums[i] == nums[i+1]`)[cite: 13], and performs bubble shifting to push all zeros to the end of the array[cite: 13]. |
+| `arrayEasy27.java` | Optimized Sequential Double and Zero-Shift Array Processor ($O(n)$ variant)[cite: 14] | Accepts an integer array `nums[]`[cite: 14], applies sequential pairwise doubling and zero conversions[cite: 14], and efficiently collects non-zero elements into an `ArrayList` while tracking zero counts to append them at the end in $O(n)$ time complexity[cite: 14]. |
 ---
 
 ## 🛠️ How to Compile and Run
