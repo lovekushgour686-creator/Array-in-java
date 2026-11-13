@@ -89,6 +89,7 @@ Welcome to the **Java Array Operations** repository! This repository contains a 
 | `arrayEasy26.java` | Sequential Double and Zero-Shift Array Processor[cite: 13] | Accepts an integer array `nums[]`[cite: 13], applies sequential pairwise doubling and zero conversions (`nums[i] == nums[i+1]`)[cite: 13], and performs bubble shifting to push all zeros to the end of the array[cite: 13]. |
 | `arrayEasy27.java` | Optimized Sequential Double and Zero-Shift Array Processor ($O(n)$ variant)[cite: 14] | Accepts an integer array `nums[]`[cite: 14], applies sequential pairwise doubling and zero conversions[cite: 14], and efficiently collects non-zero elements into an `ArrayList` while tracking zero counts to append them at the end in $O(n)$ time complexity[cite: 14]. |
 | `arrayEasy28.java` | Left and Right Sum Difference Calculator[cite: 14] | Accepts a 0-indexed integer array `nums[]`, computes prefix (`leftSum`) and suffix (`rightSum`) cumulative sums for each index, and outputs an array containing the absolute differences between left and right sums[cite: 14]. |
+| `arrayEasy29.java` | Remove Duplicates from Sorted Array[cite: 14] | Accepts a sorted integer array `arr[]`[cite: 14], filters out adjacent duplicates while counting them[cite: 14], and formats the output string displaying the unique count $k$ alongside modified array elements padded with underscores (`_`)[cite: 14]. |
 ---
 
 ## 🛠️ How to Compile and Run
